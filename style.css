@@ -83,7 +83,7 @@ nav a:hover {
     margin-bottom: 1.5rem;
     text-transform: uppercase;
     /* Efeito de Gradiente no Texto */
-    background: linear-gradient(to right, #ffffff, #ffdfc4);
+    background: linear-gradient(to right, #a855f7, #e52d52);
     -webkit-background-clip: text;
     background-clip: text; /* Corrigindo o aviso de compatibilidade */
     -webkit-text-fill-color: transparent;
