@@ -1,6 +1,6 @@
 :root {
-  --bg-gradient-1: #2f0e60; /* Escolha a cor que desejar aqui */
-  --bg-gradient-2: #7a2d14; /* Escolha a cor que desejar aqui */
+  --bg-gradient-1: #2f0e60;
+  --bg-gradient-2: #7a2d14;
 }
   /* 1. RESET E CONFIGURAÇÕES GERAIS */
 * {
@@ -67,7 +67,6 @@ nav a:hover {
     color:#e0e0e0;
 }
 
-/* 3. SEÇÃO HERO */
 .hero {
     min-height: calc(100vh - 80px);
     display: flex;
@@ -112,7 +111,6 @@ nav a:hover {
     font-weight: 800;
 }
 
-/* 4. GRADE DE STATUS */
 .stats-grid {
     display: flex;
     gap: 4rem;
@@ -136,7 +134,7 @@ nav a:hover {
     color: #b3b3b3;
 }
 
-/* 5. BOTÕES */
+/* BOTÕES */
 .cta-buttons {
     display: flex;
     gap: 1.5rem;
@@ -169,7 +167,6 @@ nav a:hover {
     transform: translateY(-3px); /* Pequeno efeito de subir ao passar o mouse */
 }
 
-/* 6. SCROLL */
 .scroll-indicator {
     font-size: 0.8rem;
     color: #b3b3b3;
@@ -204,7 +201,6 @@ nav a:hover {
     font-weight: 800;
     line-height: 1.1;
     margin-bottom: 5rem;
-    /* Aplicando o mesmo gradiente do nome principal */
     background-color:#f6f6f6;
     -webkit-background-clip: text;
     background-clip: text;
@@ -238,7 +234,6 @@ nav a:hover {
     line-height: 1.5;
 }
 
-/* --- GRID DE FERRAMENTAS & HABILIDADES --- */
 
 .skills-section-title {
     font-size: 0.85rem;
@@ -256,7 +251,7 @@ nav a:hover {
 
 /* Estilo comum dos Cards */
 .skill-card {
-    background: rgba(255, 255, 255, 0.05); /* Fundo sutilmente claro */
+    background: rgba(255, 255, 255, 0.05);
     padding: 2rem;
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -292,7 +287,6 @@ nav a:hover {
 }
 
 /* --- CORES DAS BORDAS SUPERIORES (Glow Effect) --- */
-/* Cada card tem uma cor de destaque conforme a imagem */
 
 .pink { border-top: 3px solid #ff4b91; }
 .pink h4 { color: #ff4b91; }
@@ -391,7 +385,7 @@ nav a:hover {
 
 /* Lista de descrições das atividades */
 .job-list {
-    list-style: none; /* Removemos a bolinha padrão */
+    list-style: none; /* Remove a bolinha padrão */
     max-width: 800px; /* Limita a largura do texto */
 }
 
@@ -404,7 +398,7 @@ nav a:hover {
     padding-left: 1.5rem; /* Espaço para o ícone customizado */
 }
 
-/* Criando o pequeno triângulo/seta roxa antes de cada item */
+/* Cria um pequeno triângulo/seta roxa antes de cada item */
 .job-list li::before {
     content: "▶";
     position: absolute;
@@ -659,7 +653,7 @@ nav a:hover {
     box-shadow: 0 10px 20px rgba(106, 27, 154, 0.3);
 }
 
-/* Links Sociais (LinkedIn, Insta, Whats) */
+/* Links Sociais */
 .social-links {
     display: flex;
     justify-content: center;

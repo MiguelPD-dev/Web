@@ -1,13 +1,6 @@
 /* fontes */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=JetBrains+Mono:wght@400;700&display=swap');
 
-/* Reset essencial para o cálculo de largura funcionar */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: "JetBrains Mono", monospace;
     background-color: #05090d;
